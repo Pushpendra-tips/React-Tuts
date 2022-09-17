@@ -1,13 +1,9 @@
 import "./App.css";
-import Home from "./Home";
 function App() {
   return (
     <>
-      <Home
-        style={{ color: "red", fontSize: "60px" }}
-        name="Pushpendra Tripathi"
-        address="Noida"
-      />
+      <div className="wrap">Tips</div>
+      <h1 className="head">React Developer</h1>
     </>
   );
 }

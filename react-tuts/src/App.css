@@ -1,0 +1,13 @@
+:root {
+  --maincolor: blue;
+  --fontSize: 40px;
+  --paddingB: 12px;
+}
+.wrap {
+  background-color: var(--maincolor);
+  font-size: var(--fontSize);
+  padding-bottom: var(--paddingB);
+}
+.head {
+  color: var(--maincolor);
+}
