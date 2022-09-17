@@ -2,4 +2,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /* flex-direction:row; */
+  flex-direction: column;
+  width: 40%;
+  min-height: 400px;
+  text-align: center;
+  background-color:#3d3d;
+  margin: 10px;
+}
+.wrap .box{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: blue;
+font-size:22px;
+font-weight: 500;
+width:50vh;
+margin: 10px;
+height: 50vh;
 }
