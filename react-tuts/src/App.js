@@ -8,8 +8,8 @@ function App() {
       </div>
 
       <div className="wrap">
-        <div className="box">Flexbox</div>
-        <div className="box">Flexbox</div>
+        <div className="box">Flexbox One</div>
+        <div className="box">Flexbox Two</div>
       </div>
     </>
   );
