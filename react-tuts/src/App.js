@@ -1,4 +1,5 @@
 import "./App.css";
+import FlexBox from "./FlexBox";
 import Home from "./Home";
 function App() {
   return (
@@ -6,6 +7,7 @@ function App() {
       <div className="wrap">Tips</div>
       <h1 className="head">React Developer</h1>
       <Home/>
+      <FlexBox/>
     </>
   );
 }

@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 500px;
+  margin: 1rem auto;
+  border: 1px solid blue;
+  padding: 1rem;
+}
+.item {
+  flex: 1;
+  display: flex;
+  position: relative;
+  background-color: red;
+  width: 300px;
+}
+
+.item:last-child {
+  flex: 1;
+  padding: 50px;
+  justify-content: space-between;
+}
+.card {
+    flex: 1;  width: 300px; display: flex; padding: 12px;
+    background-color: green; margin: 12px;
+  }
