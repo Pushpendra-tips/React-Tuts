@@ -1,4 +1,18 @@
-.container {
+
+.container{
+    width: 500px;
+    margin:1rem auto;
+    border: 1px solid blue;
+    padding: 1rem;
+  }
+  
+  .heading{
+    font-weight: 600;
+    background-color: aliceblue;
+    color: blue;
+  }
+
+/* .container {
   background-color: black;
   display: flex;
 }
@@ -52,4 +66,4 @@
   .text {
     font-size: 20px;
   }
-}
+} */
